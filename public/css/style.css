@@ -1,0 +1,30 @@
+html, body {
+  font-family: Helvetica, "sans-serif";
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#content {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+canvas {
+  background-color: #000;
+}
+
+#controls {
+  height: 20px;
+}
+
+#controls div {
+  float: left;
+  margin: 0 20px;
+  cursor: pointer;
+}
